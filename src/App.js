@@ -24,13 +24,13 @@ function App() {
           <Route path="/" element={<LayoutHome />} />
           <Route path="/aboutus" element={<LayoutAboutUs />} />
           <Route path="/committees" element={<LayoutCommittee />} />
-          <Route path="/contactus" element={<LayoutContactUs />} />
-          <Route path="/registration" element={<LayoutRegistration />} />
           <Route path="/awards" element={<LayoutAwards />} />
-          <Route path="/gallery" element={<LayoutGallery />} />
-          <Route path="/programme" element={<LayoutProgramme />} />
           <Route path="/speakers" element={<LayoutSpeakers />} />
+          <Route path="/registration" element={<LayoutRegistration />} />
           <Route path="/importantdates" element={<LayoutImportantdates />} />
+          <Route path="/programme" element={<LayoutProgramme />} />
+          <Route path="/gallery" element={<LayoutGallery />} />
+          <Route path="/contactus" element={<LayoutContactUs />} />
         </Routes>
       </BrowserRouter>
     </>
