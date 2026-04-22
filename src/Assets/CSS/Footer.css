@@ -1,0 +1,153 @@
+/* FOOTER */
+.main-footer {
+    background: #1e1b1b;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 100px;
+}
+
+.footer-bottom p {
+    margin-bottom: 0;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-col h3 {
+    margin-bottom: 15px;
+    color: #f5b400;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.contact-cn {
+    /* display: flex;
+    gap: 10px;
+    align-items: baseline; */
+
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.contact-in i {
+    color: #f5b400;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.footer-col li {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+/* .footer-col ul {
+    list-style: disc;
+    padding-left: 32px;
+    margin: 0;
+} */
+.footer-col ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+
+/* .footer-links li::before {
+    content: "•";
+    color: #f5b400;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    top: 2px;
+} */
+.footer-links li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #f5b400;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+.footer-col input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #1e1b1b;
+    border: 1px solid #4b4646;
+}
+
+.contact-in p {
+    font-size: 20px;
+}
+
+.footer-col button {
+    background: #f5b400;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background: #2b2727;
+    margin-top: 20px;
+    border-top: 1px solid #393636;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #f5b400;
+    padding-left: 5px;
+}
+
+.footer-email {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-email:hover {
+    color: #f5b400;
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
