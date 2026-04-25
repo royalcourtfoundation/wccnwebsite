@@ -15,13 +15,15 @@ import LayoutProgramme from "./Pages/Layout/LayoutProgramme";
 import LayoutCommittee from "./Pages/Layout/LayoutCommittee";
 import LayoutSpeakers from "./Pages/Layout/LayoutSpeakers";
 import LayoutImportantdates from "./Pages/Layout/LayoutImportantdates";
+import LayoutIndex from "./Pages/Layout/LayoutIndex";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LayoutHome />} />
+          <Route path="/" element={<LayoutIndex />} />
+          <Route path="/index" element={<LayoutIndex />} />
           <Route path="/aboutus" element={<LayoutAboutUs />} />
           <Route path="/committees" element={<LayoutCommittee />} />
           <Route path="/awards" element={<LayoutAwards />} />
