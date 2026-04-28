@@ -133,7 +133,7 @@ export default function Index() {
             slidesPerView={1}
             loop={true}
             autoplay={{
-              delay: 5000, //  
+              delay: 2000, //  
               disableOnInteraction: false,
             }}
             pagination={{ clickable: true }}
