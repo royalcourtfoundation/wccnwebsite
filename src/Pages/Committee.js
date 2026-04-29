@@ -32,6 +32,8 @@ export default function Committee() {
                             "Dr. Toru Takahashi, PhD, FICN, Secretary General, Japan",
                             "Dr. Aminat Magomedova, PhD, FICN, Russia",
                             "Dr. Elina Kharlitskaya, PhD, FICN",
+                            "Dr. Hardinsyah, Prof., IBP University, Indonasia",
+                            "Dr. Suleman, Prof., IBP University, Indonasia",
 
                             "Dr. N.R. Hadi, MD, PhD, FICN, Iraq",
                             "Dr. H.S. Buttar, PhD, FICN, Canada",
