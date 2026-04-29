@@ -33,6 +33,7 @@ export default function Header() {
             <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
             <Link to="/aboutus" onClick={() => setMenuOpen(false)}>About</Link>
             <Link to="/committees" onClick={() => setMenuOpen(false)}>Committees</Link>
+            <Link to="/treasurers" onClick={() => setMenuOpen(false)}>Treasurers</Link>
             <Link to="/awards" onClick={() => setMenuOpen(false)}>Awards</Link>
             <Link to="/speakers" onClick={() => setMenuOpen(false)}>Speakers</Link>
             <Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link>
