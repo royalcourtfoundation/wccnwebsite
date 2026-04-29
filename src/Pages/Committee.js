@@ -22,8 +22,9 @@ export default function Committee() {
 
                     <div className="committee-grid">
                         {[
-                            "Dr. Sergey Chibisov (Ex-President, ICN)",
                             "Dr. R. B. Singh, Medicine, India",
+                            "Dr. Sergey Chibisov (Ex-President, ICN)",
+                            
                             "Dr. Raimar Loebenberg, Executive Director, Alberta, Canada",
                             "Dr. Adrian Isaza, MBBS, PhD, USA, Chairman, American Chap. USA",
                             "Dr. Lekh Juneja, PhD, FICN, Int Vice President, Japan",
