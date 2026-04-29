@@ -1182,6 +1182,11 @@ p.hero-text i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.subtext {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+}
 
 /* GRID */
 .presidentIwccn {
