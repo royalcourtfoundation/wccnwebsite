@@ -28,8 +28,8 @@ function Treasurers() {
                             </div>
                             <div className='presidentIn'>
                                 <img src={CommonUser} alt="Speaker" className="speaker-image" />
-                                <h2>Dr. Najah Hadi</h2>
-                                <p>Secretary of ICN-29, Iraq</p>
+                                <h2>Dr. Najah Hadi, Iraq</h2>
+                                <p>Secretary of ICN-29</p>
                             </div>
                         </div>
                     </div>
@@ -43,8 +43,13 @@ function Treasurers() {
                             </div>
                             <div className='presidentIn'>
                                 <img src={CommonUser} alt="Speaker" className="speaker-image" />
-                                <h2>Dr. Ghizal Fatima, Head of chronobiology Unit, ERA University, Lucknow India</h2>
-                                <p>OrganizingSecretary of WCCN-29, Iraq</p>
+                                <h2>
+                                    Dr. Ghizal Fatima <br />
+                                    <span className="subtext">
+                                        Head of Chronobiology Unit, ERA University, Lucknow India
+                                    </span>
+                                </h2>
+                                <p>Organizing Secretary of WCCN-29</p>
                             </div>
                         </div>
                     </div>
