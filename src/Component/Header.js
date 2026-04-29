@@ -35,8 +35,8 @@ export default function Header() {
             <Link to="/committees" onClick={() => setMenuOpen(false)}>Committees</Link>
             <Link to="/treasurers" onClick={() => setMenuOpen(false)}>Treasurers</Link>
             <Link to="/awards" onClick={() => setMenuOpen(false)}>Awards</Link>
-            <Link to="/speakers" onClick={() => setMenuOpen(false)}>Speakers</Link>
-            <Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link>
+           {/* <Link to="/speakers" onClick={() => setMenuOpen(false)}>Speakers</Link> */}
+           {/* <Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link> */}
             <Link to="/Importantdates" onClick={() => setMenuOpen(false)}>Important Dates</Link>
             <Link to="/programme" onClick={() => setMenuOpen(false)}>Programme</Link>
             <Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
