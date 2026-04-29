@@ -38,7 +38,7 @@ function Treasurers() {
                         <div className='presidentIwccn'>
                             <div className='presidentIn'>
                                 <img src={degestanSpeaker} alt="Speaker" className="speaker-image" />
-                                <h2>Dr. Magomed Magomedov,</h2>
+                                <h2>Dr. Magomed Magomedov</h2>
                                 <p>Chairperson of WCCN-29</p>
                             </div>
                             <div className='presidentIn'>
