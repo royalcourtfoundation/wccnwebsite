@@ -10,7 +10,7 @@ function Treasurers() {
                 {/* HERO */}
                 <div className="about-hero">
                     <div className="about-overlay">
-                        <h1>treasurers of WCCN-2026</h1>
+                        <h1>Treasurers of WCCN-2026</h1>
                         <p>
                             <Link to="/">Home</Link> <span>•</span> Treasurers
                         </p>
@@ -19,7 +19,7 @@ function Treasurers() {
 
                 <section className="container mt-5">
                     <div className='presidenthead'>
-                        <h1>President Of ICN-29</h1>
+                        <h1>President of ICN-29</h1>
                         <div className='presidentIwccn'>
                             <div className='presidentIn'>
                                 <img src={CommonUser} alt="Speaker" className="speaker-image" />
@@ -34,12 +34,12 @@ function Treasurers() {
                         </div>
                     </div>
                     <div className='presidenthead'>
-                        <h1>President Of WCCN-29</h1>
+                        <h1>President of WCCN-29</h1>
                         <div className='presidentIwccn'>
                             <div className='presidentIn'>
                                 <img src={degestanSpeaker} alt="Speaker" className="speaker-image" />
                                 <h2>Dr. Magomed Magomedov</h2>
-                                <p>Chairperson of WCCN-29</p>
+                                <p>Organizing Chairperson of WCCN-29</p>
                             </div>
                             <div className='presidentIn'>
                                 <img src={CommonUser} alt="Speaker" className="speaker-image" />
