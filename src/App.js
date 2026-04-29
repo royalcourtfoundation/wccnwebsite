@@ -16,6 +16,8 @@ import LayoutCommittee from "./Pages/Layout/LayoutCommittee";
 import LayoutSpeakers from "./Pages/Layout/LayoutSpeakers";
 import LayoutImportantdates from "./Pages/Layout/LayoutImportantdates";
 import LayoutIndex from "./Pages/Layout/LayoutIndex";
+import LayoutTreasurers from "./Pages/Layout/LayoutTreasurers";
+
 
 function App() {
   return (
@@ -33,6 +35,7 @@ function App() {
           <Route path="/programme" element={<LayoutProgramme />} />
           <Route path="/gallery" element={<LayoutGallery />} />
           <Route path="/contactus" element={<LayoutContactUs />} />
+          <Route path="/treasurers" element={<LayoutTreasurers />} />
         </Routes>
       </BrowserRouter>
     </>
