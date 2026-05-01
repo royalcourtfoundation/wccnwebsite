@@ -71,6 +71,9 @@
     border-bottom: 4px solid #ff2d75;
     transition: 0.3s;
   }
+  .highlight-box:hover {
+    background: #f5b400;    
+  }
   
   .highlight-box h3 {
     font-size: 20px;
