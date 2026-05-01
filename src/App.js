@@ -4,6 +4,7 @@ import "../src/Assets/CSS/Style.css";
 import "../src/Assets/CSS/Header.css";
 import "../src/Assets/CSS/Footer.css";
 import "../src/Assets/CSS/Aboutus.css";
+import '../src/Assets/CSS/Gallery.css';
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import LayoutHome from "./Pages/Layout/LayoutHome";
 import LayoutAboutUs from "./Pages/Layout/LayoutAboutUs";
