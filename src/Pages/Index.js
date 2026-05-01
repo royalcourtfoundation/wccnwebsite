@@ -167,7 +167,7 @@ export default function Index() {
 
       {/* TOPICS */}
       <section className="topics">
-        <h2>Main Tentative Topics</h2>
+        <h2>Congress Topics</h2>
         <h3>
           WCCN-2026 "Nutrition and New Technologies in the Fight Against Non-Communicable Diseases"
         </h3>
