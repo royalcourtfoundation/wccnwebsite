@@ -1,6 +1,9 @@
 import React from 'react'
 import degestanSpeaker from '../Assets/Images/testimonial/degestanSpeaker.jpg'
 import CommonUser from '../Assets/Images/testimonial/CommonUser.jpg'
+import Aminat from '../Assets/Images/testimonial/AminatP.jpg'
+import NazaHadi from '../Assets/Images/testimonial/NajahHadiP.jpg'
+import Ghizal from '../Assets/Images/testimonial/GhizalP.jpg'
 import { Link } from 'react-router-dom'
 
 function Treasurers() {
@@ -22,12 +25,12 @@ function Treasurers() {
                         <h1>President of ICN-29</h1>
                         <div className='presidentIwccn'>
                             <div className='presidentIn'>
-                                <img src={CommonUser} alt="Speaker" className="speaker-image" />
+                                <img src={Aminat} alt="Speaker" className="speaker-image" />
                                 <h2>Dr. Aminat Magomedova, PhD, FICN</h2>
                                 <p>President of ICN-29, International College of Nutrition</p>
                             </div>
                             <div className='presidentIn'>
-                                <img src={CommonUser} alt="Speaker" className="speaker-image" />
+                                <img src={NazaHadi} alt="Speaker" className="speaker-image" />
                                 <h2>Dr. Najah Hadi, Iraq</h2>
                                 <p>Secretary of ICN-29</p>
                             </div>
@@ -42,7 +45,7 @@ function Treasurers() {
                                 <p>Organizing Chairperson of WCCN-29</p>
                             </div>
                             <div className='presidentIn'>
-                                <img src={CommonUser} alt="Speaker" className="speaker-image" />
+                                <img src={Ghizal} alt="Speaker" className="speaker-image" />
                                 <h2>
                                     Dr. Ghizal Fatima <br />
                                     <span className="subtext">
