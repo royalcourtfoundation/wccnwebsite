@@ -111,7 +111,7 @@ export default function Index() {
           </div> */}
           <div className="sightseeing-txt">
             <div className="sightseeing-txt2">
-            <div className="degestanImg"><img src={degestanSpeaker} alt=""/>"</div>
+              <div className="degestanImg"><img src={degestanSpeaker} alt="" />"</div>
               <h2>“Dagestan is a land of knowledge, and the most precious guests for us  have always been those who come to us with knowledge."</h2>
               <p>
                 Magomed Magomedov,
@@ -167,24 +167,59 @@ export default function Index() {
 
       {/* TOPICS */}
       <section className="topics">
-        <h2>Main tentative topics of the </h2>
-        <h3> WCCN-2026 "Nutrition and New Technologies in the Fight Against Non-Communicable Diseases"</h3>
+        <h2>Main Tentative Topics</h2>
+        <h3>
+          WCCN-2026 "Nutrition and New Technologies in the Fight Against Non-Communicable Diseases"
+        </h3>
 
-        <div className="topics-grid">
-          {[
-            "The Role of Nutrition in Modern Approaches to the Prevention and Treatment of NCDs",
-            "Nutrigenomics and Personalized Nutrition",
-            "Gut Microbiota and Metabolic Health",
-            "Biomarkers of Nutritional Status and the Effectiveness of Interventions",
-            "Clinical studies on the effectiveness of personalized dietary interventions",
-            "Development and validation of functional foods and nutraceuticals",
-            "Epidemiological studies on dietary patterns and their association with NCDs",
-            "Pharmacological nutrition and natural health products",
-            "Regulatory and economic mechanisms: labeling, taxes, and government programs",
-            "Food safety and food intake guidelines of the EU, WHO, FAO and AHA 2026",
-          ].map((item, i) => (
-            <div key={i} className="topic-card">{item}</div>
-          ))}
+        <div className="topics-wrapper">
+
+          {/* AREA 1 */}
+          <div className="topic-area">
+            <h4>Area 1: Clinical and Functional Nutrition in Non-Communicable Diseases</h4>
+
+            <div className="topics-grid">
+              {[
+                "The role of nutrition in modern approaches to prevention and treatment of NCDs",
+                "Nutrigenomics and personalized nutrition",
+                "Gut microbiota and metabolic health",
+                "Biomarkers of nutritional status and effectiveness",
+                "Clinical studies on personalized dietary interventions",
+                "Development of functional foods and nutraceuticals",
+                "Epidemiological studies of dietary patterns",
+                "Pharmacological nutrition and natural health products",
+                "Regulatory mechanisms: labeling, taxes, government programs",
+                "Recommendations from EU, WHO, FAO, AHA on food safety (until 2026)"
+              ].map((item, i) => (
+                <div key={i} className="topic-card">
+                  <span>{i + 1}</span>
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* AREA 2 */}
+          <div className="topic-area">
+            <h4>
+              Area 2: Neurometabolic Control – Adaptive Biomechatronics & Neurotechnologies
+            </h4>
+
+            <div className="topics-grid">
+              {[
+                "Artificial intelligence and neurocontrol in food behavior regulation",
+                "Neuro-metabolic adaptation in extreme conditions",
+                "Neuromodulation in obesity and type 2 diabetes treatment",
+                "Neuro-interfaces and neuro-prosthetics in medicine"
+              ].map((item, i) => (
+                <div key={i} className="topic-card">
+                  <span>{i + 1}</span>
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+
         </div>
       </section>
 
