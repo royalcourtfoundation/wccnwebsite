@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import logo2 from '../Assets/Images/logo/logo2.png'
@@ -7,7 +7,7 @@ import ScrollToTop from "./ScrollToTop";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const changeLanguage = (lang) => {
+const changeLanguage = (lang) => {
   localStorage.setItem("lang", lang);
 
   const interval = setInterval(() => {
@@ -79,8 +79,8 @@ export default function Header() {
             <Link to="/committees" onClick={() => setMenuOpen(false)}>Committees</Link>
             <Link to="/treasurers" onClick={() => setMenuOpen(false)}>Treasurers</Link>
             <Link to="/awards" onClick={() => setMenuOpen(false)}>Awards</Link>
-           {/* <Link to="/speakers" onClick={() => setMenuOpen(false)}>Speakers</Link> */}
-           {/* <Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link> */}
+            {/* <Link to="/speakers" onClick={() => setMenuOpen(false)}>Speakers</Link> */}
+            {/* <Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link> */}
             <Link to="/Importantdates" onClick={() => setMenuOpen(false)}>Important Dates</Link>
             <Link to="/programme" onClick={() => setMenuOpen(false)}>Programme</Link>
             <Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
@@ -88,7 +88,7 @@ export default function Header() {
 
             <button className="register-btn">Online Registration</button>
             <div className="russlang">
-              <select
+              <select name="language"
                 className="lang-dropdown"
                 onChange={(e) => changeLanguage(e.target.value)}
               >
