@@ -87,6 +87,15 @@ export default function Header() {
             <Link to="/contactus" onClick={() => setMenuOpen(false)}>Contact Us</Link>
 
             <button className="register-btn">Online Registration</button>
+            <div className="russlang">
+              <select
+                className="lang-dropdown"
+                onChange={(e) => changeLanguage(e.target.value)}
+              >
+                <option value="en">English</option>
+                <option value="ru">Russian</option>
+              </select>
+            </div>
           </nav>
 
           {/* <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>
