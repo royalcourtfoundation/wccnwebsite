@@ -7,6 +7,50 @@ import ScrollToTop from "./ScrollToTop";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const changeLanguage = (lang) => {
+  localStorage.setItem("lang", lang);
+
+  const interval = setInterval(() => {
+    const select = document.querySelector(".goog-te-combo");
+
+    if (select) {
+      select.value = lang;
+      select.dispatchEvent(new Event("change"));
+
+      // 🔥 FORCE RE-TRANSLATION
+      document.body.classList.remove("translated");
+      void document.body.offsetHeight;
+      document.body.classList.add("translated");
+
+      clearInterval(interval);
+    }
+  }, 500);
+};
+
+  useEffect(() => {
+    const savedLang = localStorage.getItem("lang");
+
+    if (savedLang) {
+      const interval = setInterval(() => {
+        const select = document.querySelector(".goog-te-combo");
+
+        if (select) {
+          select.value = savedLang;
+          select.dispatchEvent(new Event("change"));
+          clearInterval(interval);
+        }
+      }, 300);
+    }
+  }, []);
+
+  useEffect(() => {
+  const fixGoogleLayout = setInterval(() => {
+    document.body.style.top = "0px";
+    document.documentElement.style.marginTop = "0px";
+  }, 500);
+
+  return () => clearInterval(fixGoogleLayout);
+}, []);
   return (
     <>
       <ScrollToTop />   {/* Add ScrollToTop component here to ensure it is rendered on every page */}
