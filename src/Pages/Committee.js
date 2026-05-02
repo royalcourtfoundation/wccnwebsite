@@ -42,8 +42,7 @@ export default function Committee() {
 
                             "Dr. Jan Fedacko, MD, PhD, FICN, Slovakia"
                         ].map((item, i) => (
-                            <div key={i} className="committee-card">
-                             /* <div className="committee-icon">👤</div> */
+                            <div key={i} className="committee-card">                           
                             <p>{item}</p>
                             </div>
                         ))}
