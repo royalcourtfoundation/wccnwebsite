@@ -55,7 +55,7 @@ const changeLanguage = (lang) => {
     <>
       <ScrollToTop />   {/* Add ScrollToTop component here to ensure it is rendered on every page */}
       <header className="main-header">
-        <div className="container header-container">
+        <div className="container-fluid header-container">
 
           {/* Logo */}
           <div className="logo">
