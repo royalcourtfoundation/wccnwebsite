@@ -28,10 +28,11 @@ export default function Committee() {
                             "Dr. Raimar Loebenberg, Executive Director, Alberta, Canada",
                             "Dr. Adrian Isaza, MBBS, PhD, USA, Chairman, American Chap. USA",
                             "Dr. Lekh Juneja, PhD, FICN, Int Vice President, Japan",
-                            "Dr. Magomed, Magomedov",
+                            "Dr. Magomed Magomedov, MSU, Moscow, Russia",
 
                             "Dr. Toru Takahashi, PhD, FICN, Secretary General, Japan",
                             "Dr. Aminat Magomedova, PhD, FICN, Russia",
+                            "Dr. Ghizal Fatima, Professor Department of Biotechnology, Head Chronobiology Division, Era University Lucknow, India",
                             "Dr. Elina Kharlitskaya, PhD, FICN",
                             "Dr. Hardinsyah, Prof., IBP University, Indonasia",
                             "Dr. Suleman, Prof., IBP University, Indonasia",
