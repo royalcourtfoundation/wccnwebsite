@@ -89,7 +89,7 @@ const changeLanguage = (lang) => {
             <button className="register-btn">Online Registration</button>
             <div className="russlang">
               <select name="language"
-                className="lang-dropdown"
+                  className="lang-dropdown form-control form-select"
                 onChange={(e) => changeLanguage(e.target.value)}
               >
                 <option value="en">English</option>
