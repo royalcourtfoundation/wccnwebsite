@@ -25,6 +25,15 @@ html {
 body[style] {
   top: 0px !important;
 }
+
+.russlang select {
+    width: 100px;
+    border-radius: 5px;
+    height: 39px;
+    padding: 5px 10px;
+    color: #bb8a01;
+    font-weight: 600;
+}
 /* HEADER */
 
 .nav-link {
