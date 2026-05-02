@@ -1,3 +1,31 @@
+
+/* ✅ Hide visually but keep functionality */
+.goog-te-banner-frame {
+  position: fixed !important;
+  top: -9999px !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+/* 🔥 HIDE GOOGLE BANNER PROPERLY */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+/* Hide dropdown */
+.goog-te-gadget {
+  display: none !important;
+}
+/* 🔥 PREVENT HTML SHIFT */
+html {
+  margin-top: 0px !important;
+}
+
+body[style] {
+  top: 0px !important;
+}
+
 /* HEADER */
 
 .nav-link {
