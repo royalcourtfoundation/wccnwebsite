@@ -543,32 +543,52 @@ p.hero-text i {
 
 /* HEADING */
 .committee-container h2 {
-  font-size: 32px;
-  margin-bottom: 40px;
+   font-size: 36px;
+  margin-bottom: 50px;
+  background: linear-gradient(90deg, #2b0a5a, #ff2d75);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* GRID */
 .committee-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 /* CARD */
 .committee-card {
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+   background: linear-gradient(135deg, #ffffff, #f9f9ff);
+  padding: 18px 18px;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
   font-size: 14px;
-  text-align: left;
-  transition: 0.3s;
+  line-height: 1.5;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-left: 4px solid #ff2d75;
+  transition: all 0.3s ease;
+}
+.committee-icon {
+  min-width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, #ff2d75, #ff0066);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(255, 45, 117, 0.4);
 }
 
 /* HOVER */
 .committee-card:hover {
-  transform: translateY(-5px);
-  border-color: #ff2d75;
+   transform: translateY(-6px);
+  border-left: 4px solid #f5b400;
+  box-shadow: 0 15px 30px rgba(255, 45, 117, 0.2);
 }
 
 @media (max-width: 992px) {
