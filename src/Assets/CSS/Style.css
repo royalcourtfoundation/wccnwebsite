@@ -538,7 +538,6 @@ p.hero-text i {
   max-width: 1200px;
   margin: auto;
   padding: 80px 20px;
-  text-align: center;
 }
 
 /* HEADING */
@@ -548,6 +547,7 @@ p.hero-text i {
   background: linear-gradient(90deg, #2b0a5a, #ff2d75);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 /* GRID */
