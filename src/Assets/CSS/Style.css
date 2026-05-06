@@ -281,7 +281,7 @@ p.hero-text i {
   background: linear-gradient(180deg, #f4f5fb, #ffffff);
 } */
 .topics {
-    background: linear-gradient(180deg, rgb(68 140 247 / 25%), #fff);
+    background: linear-gradient(180deg, #448cf740, #eeeff1);
     padding: 80px 20px;
     text-align: center;
 }
