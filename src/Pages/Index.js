@@ -169,7 +169,7 @@ export default function Index() {
       <section className="topics">
         <h2>Congress Topics</h2>
         <h3>
-          WCCN-2026 "Nutrition and New Technologies in the Fight Against Non-Communicable Diseases"
+          WCCN-2026 "Nutrition and new biomechatronic technologies to improve human quality of life"
         </h3>
 
         <div className="topics-wrapper">
@@ -210,7 +210,8 @@ export default function Index() {
                 "Artificial intelligence and neurocontrol in food behavior regulation",
                 "Neuro-metabolic adaptation in extreme conditions",
                 "Neuromodulation in obesity and type 2 diabetes treatment",
-                "Neuro-interfaces and neuro-prosthetics in medicine"
+                "Neuro-interfaces and neuro-prosthetics in medicine",
+                "Neurometabolic control and adaptive neurobiomechatronic systems"
               ].map((item, i) => (
                 <div key={i} className="topic-card">
                   <span>{i + 1}</span>
