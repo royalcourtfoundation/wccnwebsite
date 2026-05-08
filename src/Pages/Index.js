@@ -19,7 +19,7 @@ export default function Index() {
   const sliderImages = [mainslider1, mainslider2, mainslider3, mainslider4];
   const [currentSlide, setCurrentSlide] = useState(0);
   const calculateTimeLeft = () => {
-    const target = new Date("September 17, 2026 00:00:00").getTime();
+    const target = new Date("October 1, 2026 00:00:00").getTime();
     const now = new Date().getTime();
     const diff = target - now;
 
@@ -92,7 +92,7 @@ export default function Index() {
 
               <h1>29TH WORLD CONGRESS ON <br /> CLINICAL NUTRITION</h1>
               <div className="hero-text-1">
-                <p className="hero-text"><i className="fa fa-calendar"></i>  17th - 19th September 2026</p>
+                <p className="hero-text"><i className="fa fa-calendar"></i>  1st - 3rd October 2026</p>
                 <p className="hero-text"><i className="	fa fa-location-arrow"></i>367000, SRC «Juravli», 9 Entuziastov Street, Karaman 2, Makhachkala, Dagestan, Russia</p>
                 {/* <p className="hero-text"><i className="fa fa-clock-o"></i> 10:30 am</p> */}
               </div>
@@ -155,8 +155,7 @@ export default function Index() {
       {/* INFO */}
       <section className="info">
         <p>
-          Joining Physiological health dynamics, functional food industry,
-          nutraceuticals and health promotion, for disease prevention.
+          WCCN-2026 "Nutrition and new biomechatronic technologies to improve human quality of life."
         </p>
 
         <div className="info-btns">
