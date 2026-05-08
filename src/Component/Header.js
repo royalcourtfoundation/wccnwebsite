@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import logo2old from '../Assets/Images/logo/logo2.png'
 import logo2tp from '../Assets/Images/logo/Logowccn.png'
-import logo2 from '../Assets/Images/logo/Logowccn2.png'
+import logo2 from '../Assets/Images/logo/logowccn2.png'
 import ScrollToTop from "./ScrollToTop";
 
 export default function Header() {
