@@ -148,9 +148,15 @@ body[style] {
 }
 
 /* HOVER EFFECT (optional but nice) */
-.mainlogo img:hover {
+/*.mainlogo img:hover {
     transform: scale(1.05);
     transition: 0.3s ease;
+}*/
+
+.mainlogo img:hover {
+    transform: scale(2.05);
+    transition: .3s ease;
+    margin: 20px;
 }
 
 /* RESPONSIVE */
