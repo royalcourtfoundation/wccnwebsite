@@ -1250,29 +1250,22 @@ p.hero-text i {
 }
 
 /* ------------ End Contact Us-------------------- */
-/* ------------ Start Treasurers-------------------- */
-/* ===== PRESIDENT / TREASURERS SECTION ===== */
+/* ------------ Start Treasurers New Layout -------------------- */
 
 .presidenthead {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
-/* SECTION TITLE */
-
+/* TITLE */
 .presidenthead h1 {
-  font-size: 32px;
+  font-size: 38px;
   text-align: center;
   margin-bottom: 40px;
   font-weight: 700;
+
   background: linear-gradient(90deg, #2b0a5a, #ff2d75);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.subtext {
-  font-size: 13px;
-  font-weight: 400;
-  color: #666;
 }
 
 /* GRID */
@@ -1284,72 +1277,157 @@ p.hero-text i {
 
 /* CARD */
 .presidentIn {
-  background: #fff;
-  padding: 30px 20px;
-  border-radius: 15px;
-  text-align: center;
-  transition: 0.3s;
-
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #ff2d75;
+  background: linear-gradient(135deg, #ffffff, #f9f9ff);
+  border-radius: 22px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.4s ease;
+  border-top: 5px solid #ff2d75;
 }
 
-/* HOVER EFFECT */
+/* HOVER */
 .presidentIn:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+
+  border-top: 5px solid #f5b400;
+
+  box-shadow: 0 20px 40px rgba(255,45,117,0.18);
 }
 
-/* IMAGE */
+/* LEFT IMAGE AREA = 1/3 */
 .presidentIn img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+
+  min-width: 170px;
+
+  border-radius: 18px;
+
   object-fit: cover;
   object-position: center;
-  margin-bottom: 15px;
 
-
-  padding: 2px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.18);
 }
-
-
-/* NAME */
-.presidentIn h2 {
-  font-size: 18px;
+.president-content h2 {
+  font-size: 30px;
   color: #2b0a5a;
+
+  margin-bottom: 12px;
+  line-height: 1.3;
+
   font-weight: 700;
-  margin-bottom: 8px;
+}
+/* IMAGE HOVER */
+.presidentIn:hover img {
+  transform: scale(1.05);
 }
 
-/* ROLE */
+/* RIGHT CONTENT AREA = 2/3 */
+.presidentIn h2 {
+  font-size: 26px;
+  color: #2b0a5a;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
 .presidentIn p {
-  font-size: 14px;
+  font-size: 18px;
   color: #ff2d75;
-  font-weight: 500;
+  line-height: 1.6;
+  margin: 0;
 }
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
+/* SMALL TEXT */
+
+.subtext {
+  font-size: 16px;
+  /* line-height: 1.7; */
+  color: #555;
+  /* margin-bottom: 6px; */
+  display: block;
+}
+.president-content p {
+  font-size: 18px;
+  color: #ff2d75;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+
   .presidentIwccn {
     grid-template-columns: 1fr;
   }
 
-  .presidenthead h1 {
-    font-size: 24px;
+  .presidentIn h2 {
+    font-size: 22px;
+  }
+
+  .presidentIn p {
+    font-size: 16px;
   }
 }
 
-.presidentIn {
-  background: linear-gradient(135deg, #ffffff, #f9f9ff);
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .presidenthead h1 {
+    font-size: 28px;
+  }
+
+  .presidentIn {
+    flex-direction: column;
+    text-align: center;
+  }
+  .president-content {
+    text-align: center;
+  }
+
+  .presidentIn img {
+    width: 130px;
+    height: 130px;
+
+    min-width: 130px;
+
+    border-radius: 50%;
+  }
+  .president-content h2 {
+    font-size: 24px;
+  }
+
+  .presidentIn h2 {
+    font-size: 20px;
+  }
+
+  .presidentIn p {
+    font-size: 15px;
+  }
+
+  .subtext {
+    font-size: 12px;
+  }
+  .info p {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 57px;
+    margin-bottom: 30px;
+}
+  .president-content p {
+    font-size: 18px;
+  }
+
+  .presidentIn img {
+    width: 130px;
+    height: 130px;
+    min-width: 130px;
+  }
 }
 
-.presidentIn:hover {
-  border-top: 4px solid #f5b400;
-}
-
-/* ------------ End Treasurers-------------------- */
+/* ------------ End Treasurers New Layout -------------------- */
 
 
 /* ------------ Start Scroll To Top CSS-------------------- */
