@@ -7,6 +7,10 @@ const images = [
   require("../Assets/Images/Makhalakaimages/GalleryImg2.png"),
   require("../Assets/Images/Makhalakaimages/GalleryImg3.png"),
   require("../Assets/Images/Makhalakaimages/GalleryImg4.png"),
+  require("../Assets/Images/Makhalakaimages/GalleryImg5.jpeg"),
+  require("../Assets/Images/Makhalakaimages/GalleryImg6.jpeg"),
+  require("../Assets/Images/Makhalakaimages/GalleryImg7.jpeg"),
+  require("../Assets/Images/Makhalakaimages/GalleryImg8.jpeg"),
   require("../Assets/Images/Makhalakaimages/Makhachkalaleft.jpg"),
   /* require("../Assets/Images/Makhalakaimages/mainslider1.jpeg"),
   require("../Assets/Images/Makhalakaimages/mainslider2.jpeg"), */
