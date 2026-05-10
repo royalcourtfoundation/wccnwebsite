@@ -26,13 +26,17 @@ function Treasurers() {
                         <div className='presidentIwccn'>
                             <div className='presidentIn'>
                                 <img src={Aminat} alt="Speaker" className="speaker-image" />
-                                <h2>Dr. Aminat Magomedova, PhD, FICN</h2>
-                                <p>President of ICN-29, International College of Nutrition</p>
+                                <div className="president-content">
+                                    <h2>Dr. Aminat Magomedova, PhD, FICN</h2>
+                                    <p>President of ICN-29, International College of Nutrition</p>
+                                </div>
                             </div>
                             <div className='presidentIn'>
                                 <img src={NazaHadi} alt="Speaker" className="speaker-image" />
-                                <h2>Dr. Najah Hadi, Iraq</h2>
-                                <p>Secretary of ICN-29</p>
+                                <div className="president-content">
+                                    <h2>Dr. Najah Hadi, Iraq</h2>
+                                    <p>Secretary of ICN-29</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,18 +45,26 @@ function Treasurers() {
                         <div className='presidentIwccn'>
                             <div className='presidentIn'>
                                 <img src={degestanSpeaker} alt="Speaker" className="speaker-image" />
-                                <h2>Dr. Magomed Magomedov</h2>
-                                <p>Organizing Chairperson of WCCN-29</p>
+                                <div className="president-content">
+                                    <h2>Dr. Magomed Magomedov</h2>
+                                    <p>Organizing Chairperson of WCCN-29</p>
+                                </div>
                             </div>
                             <div className='presidentIn'>
                                 <img src={Ghizal} alt="Speaker" className="speaker-image" />
-                                <h2>
-                                    Dr. Ghizal Fatima <br />
+
+                                <div className="president-content">
+
+                                    <h2>Dr. Ghizal Fatima</h2>
+
                                     <span className="subtext">
-                                        Head of Chronobiology Unit, ERA University, Lucknow India
+                                        Head of Chronobiology Unit,
+                                        ERA University, Lucknow India
                                     </span>
-                                </h2>
-                                <p>Organizing Secretary of WCCN-29</p>
+
+                                    <p>Organizing Secretary of WCCN-29</p>
+
+                                </div>
                             </div>
                         </div>
                     </div>
