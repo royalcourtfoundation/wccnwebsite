@@ -26,12 +26,12 @@ export default function Importantdates() {
             <div className="dates-grid">
               <div className="date-card">
                 <h3>Registration Deadline</h3>
-                <p>17th September 2026</p>
+                <p>1<sup>st</sup> July 2026</p>
               </div>
 
               <div className="date-card">
                 <h3>Abstract Submission</h3>
-                <p>10th September 2026</p>
+                <p>1<sup>st</sup> July  2026</p>
               </div>
             </div>
           </div>
