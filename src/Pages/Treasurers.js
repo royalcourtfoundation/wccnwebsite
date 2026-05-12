@@ -21,26 +21,7 @@ function Treasurers() {
                 </div>
 
                 <section className="container mt-5">
-                    <div className='presidenthead'>
-                        <h1>President of ICN-29</h1>
-                        <div className='presidentIwccn'>
-                            <div className='presidentIn'>
-                                <img src={Aminat} alt="Speaker" className="speaker-image" />
-                                <div className="president-content">
-                                    <h2>Dr. Aminat Magomedova, PhD, FICN</h2>
-                                    <p>President of ICN-29, International College of Nutrition</p>
-                                </div>
-                            </div>
-                            <div className='presidentIn'>
-                                <img src={NazaHadi} alt="Speaker" className="speaker-image" />
-                                <div className="president-content">
-                                    <h2>Dr. Najah Hadi, Iraq</h2>
-                                    <p>Secretary of ICN-29</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='presidenthead'>
+                     <div className='presidenthead'>
                         <h1>President of WCCN-29</h1>
                         <div className='presidentIwccn'>
                             <div className='presidentIn'>
@@ -68,6 +49,26 @@ function Treasurers() {
                             </div>
                         </div>
                     </div>
+                    <div className='presidenthead'>
+                        <h1>President of ICN-29</h1>
+                        <div className='presidentIwccn'>
+                            <div className='presidentIn'>
+                                <img src={Aminat} alt="Speaker" className="speaker-image" />
+                                <div className="president-content">
+                                    <h2>Dr. Aminat Magomedova, PhD, FICN</h2>
+                                    <p>President of ICN-29, International College of Nutrition</p>
+                                </div>
+                            </div>
+                            <div className='presidentIn'>
+                                <img src={NazaHadi} alt="Speaker" className="speaker-image" />
+                                <div className="president-content">
+                                    <h2>Dr. Najah Hadi, Iraq</h2>
+                                    <p>Secretary of ICN-29</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
                 </section>
             </section>
         </>
