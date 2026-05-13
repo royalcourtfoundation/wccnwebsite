@@ -72,9 +72,10 @@ function Treasurers() {
                                 <div className="president-content">
                                     <h2>Dr. Najah Hadi, Iraq</h2>
                                     <span className="subtext">
-                                       Dept of Pharmacology and Therapeutics Faculty of Medicine University of Kufa Iraq
+                                     Prof. Dept of Pharmacology and Therapeutics Faculty of Medicine University of Kufa Iraq
                                     </span>
-                                    <p>Former Secretory general of the ICN-29</p>
+                                    <p>Former Secretory General of the ICN-29</p>
+                                    <p> Secretary General of WCCN-2026</p>
                                 </div>
                             </div>
                         </div>
