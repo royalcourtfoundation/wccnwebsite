@@ -28,6 +28,10 @@ function Treasurers() {
                                 <img src={degestanSpeaker} alt="Speaker" className="speaker-image" />
                                 <div className="president-content">
                                     <h2>Dr. Magomed Magomedov</h2>
+                                    <span className="subtext">
+                                        Director of Research Institute of Biomechatronics, 
+                                        Professor at Lomonosov Moscow State University
+                                    </span>
                                     <p>Organizing Chairperson of WCCN-29</p>
                                 </div>
                             </div>
@@ -56,6 +60,10 @@ function Treasurers() {
                                 <img src={Aminat} alt="Speaker" className="speaker-image" />
                                 <div className="president-content">
                                     <h2>Dr. Aminat Magomedova, PhD, FICN</h2>
+                                    <span className="subtext">
+                                        Chairman of the BRICS Health Coalition Behaviour and Health Committee,
+                                        Associate Professor at Lomonosov Moscow State University
+                                    </span>
                                     <p>President of ICN-29, International College of Nutrition</p>
                                 </div>
                             </div>
