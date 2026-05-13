@@ -161,7 +161,6 @@ export default function Index() {
 
         <div className="info-btns">
           <button>WWW.WCCN2026.COM</button>
-          /*<button>WWW.INCHEALTHFOODS.COM</button>*/
         </div>
       </section>
 
