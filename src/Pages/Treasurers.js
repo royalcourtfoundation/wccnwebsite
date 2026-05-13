@@ -32,7 +32,7 @@ function Treasurers() {
                                         Director of Research Institute of Biomechatronics, 
                                         Professor at Lomonosov Moscow State University
                                     </span>
-                                    <p>Organizing Chairperson of WCCN-29</p>
+                                    <p>Organizing Chairperson of WCCN-2026</p>
                                 </div>
                             </div>
                             <div className='presidentIn'>
@@ -47,7 +47,7 @@ function Treasurers() {
                                         ERA University, Lucknow India
                                     </span>
 
-                                    <p>Organizing Secretary of WCCN-29</p>
+                                    <p>Organizing Secretary of WCCN-2026</p>
 
                                 </div>
                             </div>
