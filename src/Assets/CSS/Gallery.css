@@ -77,9 +77,9 @@
   object-fit: cover;        
   border-radius: 10px;
 }
+
 .gallery-modal img:hover {
-  transform: scale(1.5);
-  transition: 0.3s ease;
+  transform: scale(1.03);
 }
 
 /* CLOSE */
@@ -113,6 +113,137 @@
 .gallery-modal .next {
   right: 40px;
 }
+
+/* =========================
+   ALBUM GRID
+========================= */
+
+.gallery-albums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* ALBUM CARD */
+.album-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+
+  height: 320px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+
+  transition: 0.4s ease;
+}
+
+.album-card:hover {
+  transform: translateY(-8px);
+}
+
+/* IMAGE */
+.album-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: 0.5s ease;
+}
+
+.album-card:hover img {
+  transform: scale(1.1);
+}
+
+/* OVERLAY */
+.album-overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.8),
+    rgba(0,0,0,0.2)
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 25px;
+
+  color: #fff;
+}
+
+.album-overlay h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.album-overlay span {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* =========================
+   ALBUM HEADER
+========================= */
+
+.album-header {
+  margin-bottom: 40px;
+}
+
+.album-header h2 {
+  font-size: 42px;
+  margin-top: 20px;
+
+  color: #2b0a5a;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  background: linear-gradient(135deg, #ff2d75, #ff0066);
+
+  border: none;
+  color: #fff;
+
+  padding: 12px 25px;
+
+  border-radius: 40px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #f5b400;
+  color: #000;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+
+  .gallery-albums {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .gallery-albums {
+    grid-template-columns: 1fr;
+  }
+
+  .album-card {
+    height: 260px;
+  }
+
+}
+
+
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
