@@ -187,10 +187,14 @@ body[style] {
     box-shadow:
         0 12px 25px rgba(0, 0, 0, 0.25),
         0 0 25px rgba(245, 180, 0, 0.45);
+     width: 100px;
+    height: 100px;
 }
 
 .mainlogo:hover img {
     transform: scale(1.08) rotate(4deg);
+     width: 90px;
+    height: 90px;
 }
 
 /* RESPONSIVE */
