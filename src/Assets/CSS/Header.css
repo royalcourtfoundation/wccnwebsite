@@ -1,29 +1,31 @@
-
 /* ✅ Hide visually but keep functionality */
 .goog-te-banner-frame {
-  position: fixed !important;
-  top: -9999px !important;
+    position: fixed !important;
+    top: -9999px !important;
 }
 
 body {
-  top: 0px !important;
-  position: static !important;
+    top: 0px !important;
+    position: static !important;
 }
+
 /* 🔥 HIDE GOOGLE BANNER PROPERLY */
 .goog-te-banner-frame.skiptranslate {
-  display: none !important;
+    display: none !important;
 }
+
 /* Hide dropdown */
 .goog-te-gadget {
-  display: none !important;
+    display: none !important;
 }
+
 /* 🔥 PREVENT HTML SHIFT */
 html {
-  margin-top: 0px !important;
+    margin-top: 0px !important;
 }
 
 body[style] {
-  top: 0px !important;
+    top: 0px !important;
 }
 
 .russlang select {
@@ -35,6 +37,7 @@ body[style] {
     width: 100px;
     border: none;
 }
+
 /* HEADER */
 
 .nav-link {
@@ -70,6 +73,8 @@ body[style] {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
+
+    min-height: 90px;
 }
 
 .logo a {
@@ -131,44 +136,87 @@ body[style] {
 .logo {
     display: flex;
     align-items: center;
+
+    z-index: 1000;
 }
 
 /* LOGO IMAGE WRAPPER */
 .mainlogo {
+    /* display: flex;
+    align-items: center; */
+
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.2),
+        0 0 15px rgba(245, 180, 0, 0.25);
+    transition: 0.35s ease;
 }
 
 /* LOGO IMAGE */
 .mainlogo img {
-    height: 50px;
-    /* desktop size */
+    /* height: 50px;
     width: auto;
+    object-fit: contain; */
+
+    width: 58px;
+    height: 58px;
     object-fit: contain;
+    border-radius: 50%;
+    transition: 0.35s ease;
 }
 
-/* HOVER EFFECT (optional but nice) */
-/*.mainlogo img:hover {
-    transform: scale(1.05);
-    transition: 0.3s ease;
-}*/
 
-.mainlogo img:hover {
+/* .mainlogo img:hover {
     transform: scale(2.05);
     transition: .3s ease;
     margin: 20px;
+} */
+
+/* HOVER EFFECT */
+.mainlogo:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.25),
+        0 0 25px rgba(245, 180, 0, 0.45);
+}
+
+.mainlogo:hover img {
+    transform: scale(1.08) rotate(4deg);
 }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+    .mainlogo {
+        width: 60px;
+        height: 60px;
+    }
+
     .mainlogo img {
-        height: 40px;
+        /* height: 40px; */
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media (max-width: 480px) {
+    .mainlogo {
+        width: 52px;
+        height: 52px;
+    }
+
     .mainlogo img {
-        height: 35px;
+        /* height: 35px; */
+        width: 40px;
+        height: 40px;
     }
 }
 
