@@ -196,15 +196,16 @@ body[style] {
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .mainlogo {
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
     }
 
     .mainlogo img {
         /* height: 40px; */
-        width: 60px;
-        height: 60px;
+        width: 90px;
+        height: 90px;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -215,8 +216,8 @@ body[style] {
 
     .mainlogo img {
         /* height: 35px; */
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
 }
 
