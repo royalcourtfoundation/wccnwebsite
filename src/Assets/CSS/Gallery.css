@@ -72,8 +72,8 @@
 
 /* IMAGE */
 .gallery-modal img {
-  width: 800px;             
-  height: 500px;           
+  width: 90%;             
+  height: 90%;           
   object-fit: cover;        
   border-radius: 10px;
 }
