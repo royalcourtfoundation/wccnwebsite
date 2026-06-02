@@ -156,7 +156,7 @@ export default function Index() {
       {/* INFO */}
       <section className="info">
         <p>
-          WCCN-2026 "Nutrition and new biomechatronic technologies to improve human quality of life."
+          WCCN-2026 "Nutrition and new biomechatronic technologies to improve quality of life."
         </p>
 
         <div className="info-btns">
@@ -168,7 +168,7 @@ export default function Index() {
       <section className="topics">
         <h2>Congress Topics</h2>
         <h3>
-          WCCN-2026 "Nutrition and new biomechatronic technologies to improve human quality of life"
+          WCCN-2026 "Nutrition and new biomechatronic technologies to improve quality of life"
         </h3>
 
         <div className="topics-wrapper">
